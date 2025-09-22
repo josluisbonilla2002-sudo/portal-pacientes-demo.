@@ -1,0 +1,40 @@
+/* Brand colors */
+:root {
+  --brand-primary: #E60046; /* carmesí */
+  --brand-dark: #111111;
+  --brand-light: #f7f7f9;
+}
+
+.block-container {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+header .stAppHeader {
+  background-color: var(--brand-light) !important;
+}
+
+h1, h2, h3 {
+  color: var(--brand-dark) !important;
+}
+
+/* Buttons */
+.stButton>button {
+  border-radius: 10px;
+  border: 0;
+  padding: 0.6rem 1rem;
+  font-weight: 600;
+}
+.stButton>button[kind="primary"] {
+  background: var(--brand-primary);
+}
+/* Cards */
+.reportview-container .main .block-container {
+  max-width: 850px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e9e9ef;
+  margin: 1.2rem 0;
+}
